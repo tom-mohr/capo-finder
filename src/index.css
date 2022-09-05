@@ -1,0 +1,14 @@
+/*blueprint imports:*/
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+@import "~@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  background: #7c7c7c30;
+  border-radius: 3px;
+  padding-left: 2px;
+  padding-right: 2px;
+}

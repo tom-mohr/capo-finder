@@ -1,0 +1,44 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  transition: background-color 0.15s ease-out;
+}
+
+.app-light {
+  background-color: white;
+}
+
+.app-dark {
+  background-color: black;
+}
+
+.app-light .subtle-text {
+  color: rgba(128, 128, 128, 1.0);
+}
+
+.app-dark .subtle-text {
+  color: rgba(128, 128, 128, 1.0);
+}
+
+.app-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  width: min(500px, 90vw);
+  margin: auto;
+  /*background-color: #282c34;
+  color: white;*/
+
+  /*align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);*/
+}
+
+.app-body h1 {
+  text-align: center;
+}
+
+.panel {
+  min-width: 300px;
+}
